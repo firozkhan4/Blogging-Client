@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { LuMoon } from "react-icons/lu";
+import { MdOutlineDarkMode } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { EditorContext } from "../contexts/EditorContext";
 
@@ -10,7 +10,7 @@ export default function TopNavBar() {
       <div className=" container mx-auto py-3 flex items-center justify-between">
         <section className="flex items-center text-2xl space-x-4 justify-center">
           <Link to={"/"}>firozkhan.com</Link>
-          <LuMoon size={20} className="cursor-pointer" />
+          <MdOutlineDarkMode size={20} className="cursor-pointer" />
         </section>
         <Link
           to={"/editor"}
